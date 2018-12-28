@@ -10,6 +10,7 @@ function Icon(props) {
       fill={color}
       height={size}
       width={size}
+      {...props}
       viewBox="0 0 32 32"
     >
       {props.children}
